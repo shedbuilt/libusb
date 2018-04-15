@@ -4,4 +4,4 @@ sed -i "s/^PROJECT_LOGO/#&/" doc/doxygen.cfg.in
             --disable-static
 # Explicitly disable parallel build
 make -j1
-make DESTDIR=${SHED_FAKEROOT} install
+make DESTDIR=${SHED_FAKE_ROOT} install
