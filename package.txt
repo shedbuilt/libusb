@@ -1,5 +1,5 @@
 NAME=libusb
-VERSION=1.0.21
+VERSION=1.0.22
 REVISION=1
-SRC=https://github.com/libusb/libusb/releases/download/v1.0.21/libusb-1.0.21.tar.bz2
-SRCMD5=1da9ea3c27b3858fa85c5f4466003e44
+SRC=https://github.com//libusb/libusb/releases/download/v1.0.22/libusb-1.0.22.tar.bz2
+SRCMD5=466267889daead47674df933cea9cacb

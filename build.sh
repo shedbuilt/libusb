@@ -1,7 +1,7 @@
 #!/bin/bash
-sed -i "s/^PROJECT_LOGO/#&/" doc/doxygen.cfg.in
+sed -i "s/^PROJECT_LOGO/#&/" doc/doxygen.cfg.in &&
 ./configure --prefix=/usr \
-            --disable-static
+            --disable-static &&
 # Explicitly disable parallel build
-make -j1
-make DESTDIR=${SHED_FAKE_ROOT} install
+make -j1 &&
+make DESTDIR="$SHED_FAKE_ROOT" install
